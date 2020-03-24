@@ -8,7 +8,14 @@ with open("./space_separated_permutations.csv") as f:
 
 permutations=permutations[0]
 
-for perm in permutations[0:50]:
+#if you just want the first 50
+#for perm in permutations[0:50]:
+#    print("Input: ")
+#    print(perm)
+#    print("Output: ")
+#    print(get_dressed(perm))
+
+for perm in permutations:
     print("Input: ")
     print(perm)
     print("Output: ")
