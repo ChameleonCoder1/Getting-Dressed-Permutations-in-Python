@@ -16,7 +16,6 @@ permutations=permutations[0]
 #    print(get_dressed(perm))
 
 for perm in permutations:
-    print("Input: ")
-    print(perm)
-    print("Output: ")
-    print(get_dressed(perm))
+    this_perm =  get_dressed(perm)
+    if not "fail" in this_perm:
+        print("Successful Input: {} is {} ".format(perm, get_dressed(perm)))
