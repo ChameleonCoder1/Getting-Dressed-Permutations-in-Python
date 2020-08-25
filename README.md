@@ -32,7 +32,7 @@ Examples:
     
     
 Solution:
-The python scripts in this repo were made as a solution to the challenge above. To run, first download the respository and run the following command in the terminal to create a csv (space_separated_permutations.csv) of permutations:
+The python scripts in this repo were made as a solution to the challenge above. To run, first download the repository and run the following command in the terminal to create a csv (space_separated_permutations.csv) of permutations:
 
 python create_inputs.py
 
