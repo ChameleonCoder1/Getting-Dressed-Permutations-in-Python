@@ -12,6 +12,8 @@ You have to get dressed in the morning before going to work. Unfortunately, you 
     4 = shoes
     5 = socks
 
+How many different number of ways can you successfully get dressed, following the rules below?
+
 Rules:
 
     You must put your socks on before your shoes.
