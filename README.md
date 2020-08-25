@@ -36,7 +36,7 @@ The python scripts in this repo were made as a solution to the challenge above. 
 
 python create_inputs.py
 
-The resulting csv will be a list of all possible permutations for 5 things ("1", "2", "3, "4, "5") taken 1, 2, 3, 4, or 5 at a time. According to the permutation equation below, we will have 325 permutations when summing across r=1 to 5:
+The resulting csv will be a list of all possible permutations for 5 things ("1", "2", "3, "4, "5") taken 1, 2, 3, 4, or 5 at a time. According to the permutation equation below, we will have 325 permutations when summing across r=1 to 5.
 	Number of permutations of n things taken r at a time:
 	
 	=(n!)/(n-r)!
