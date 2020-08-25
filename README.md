@@ -48,7 +48,9 @@ The resulting csv will be a list of all possible permutations for 5 things ("1",
 		= 5 + 20 + 60 + 120 + 120
 		=325
 
-Appended to each of these permutations is the number "6", which indicates "leave" as explained above. The program run_program.py reads in the permutations (space_separated_permutations.csv) and prints the solutions using functions from getting_dressed.py. Running this program is straightforward:
+This means that there are 325 different ways to put on your attire, regardless of whether it's acceptable by the rules or not.
+
+Appended to each of these permutations is the number "6", which indicates "leave" as explained above. The program run_program.py reads in the permutations (space_separated_permutations.csv) and prints the successful ways to get dressed after filtering out ways that the rules don't allow (which are defined as functions in getting_dressed.py). Running this program is straightforward:
 
 python run_program.py
 
